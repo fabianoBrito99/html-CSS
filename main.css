@@ -1,0 +1,142 @@
+body{
+    background-color: #363636;
+    color:azure;
+    font-family: monospace;
+    padding: 24px;
+    font-weight:bold;
+    
+}
+.title{
+    font-size: 35px;
+    color: 	#00FF7F;
+    
+}
+.list-item{
+    font-size: 24px;
+    margin-bottom: 14px;
+    color: #00FFFF;
+}
+.button{
+    background-color:#00FFFF;
+    font-size: 24px;
+    color:black;
+    border-color: #106d6d;
+    border-radius: 5px;
+    padding: 14px;
+    font-weight:bold;
+
+    
+    
+}
+input{
+    background-color: transparent;
+    height: 32px;
+    font-size: 24px;
+    color:white;
+    border-color: #00FFFF;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight:bold;
+
+    
+    
+}
+.image{
+   
+    border-radius: 8px;
+    position: center;
+    
+}
+
+.skills
+{
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(4, 245, 253, 0.815);
+    box-shadow: 0 15px 20px rgba(11, 11, 170, 0.568);
+    position: fixed;
+    transform: translateY(-520);
+
+    height: 600px;
+    left: 520px;
+    
+}
+.skills ul{
+    list-style: none;
+    
+}
+.skills ul li{
+   margin: 20px 0;
+
+}
+
+.skills .barras{
+    background: linear-gradient(to right, rgb(5, 172, 5), rgb(213, 228, 5), rgb(236, 41, 15));
+    display: block;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: .10s ease-in-out;
+}
+.barras > span{
+    height: 20px;
+    background: linear-gradient(to right, rgb(52, 65, 65),  rgb(12, 8, 3));
+    position: absolute;
+   
+}
+
+.inseridos{
+    width: 70%;
+    animation: inseridos 8s;
+}
+.proteinas{
+    width: 40%;
+    animation: proteinas 8s;
+}
+.carboidratos{
+    width: 30%;
+    animation: carboidratos 4s;
+
+}
+
+@keyframes inseridos {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes proteinas {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 40%;
+    }
+}
+
+@keyframes carboidratos {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 30%;
+    }
+}
+
+
+.posicao-botao{
+    position: fixed;
+}
+
+
+
+
+
